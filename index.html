@@ -1,77 +1,92 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Internet e il Bene Pubblico</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #ffffff;
-        }
-        header {
-            background: #66c7ff;
-            padding: 20px;
-            background-image:image(); /* placeholder */
-        }
-        header h1 {
-            margin: 0;
-            font-size: 28px;
-        }
-        .container {
-            padding: 20px;
-        }
-        .author {
-            font-style: italic;
-            margin-bottom: 10px;
-        }
-        .images {
-            display: flex;
-            gap: 10px;
-            margin-bottom: 10px;
-        }
-        .images img {
-            width: 49%;
-            height: auto;
-        }
-        .highlight {
-            background-color: yellow;
-            font-weight: bold;
-        }
-        ul {
-            margin-top: 10px;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-        }
-        td {
-            border: 1px solid #ccc;
-            padding: 10px;
-        }
-        .table-header {
-            background-color: #b3e5fc;
-            font-weight: bold;
-        }
-        .related {
-            margin-top: 20px;
-        }
-        .related img {
-            width: 200px;
-            display: block;
-        }
-        .related-title {
-            font-weight: bold;
-            color: darkred;
-        }
-    </style>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
+
 <body>
     <header>
+        <div class="logo">
+            <img src="img/logo.svg" alt="Booleaner Logo">
+        </div>
         <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
         <p class="author">Scritto da <a href="#">The Booleaner</a><br>il 10/10/2020</p>
     </header>
-    
+    <div class="container">
+        <div class="images">
+            <img src="img/tim-1.jpg" alt="Tim Berners-Lee speaking">
+            <img src="img/tim-2.jpg" alt="Tim Berners-Lee portrait">
+        </div>
+        <small>1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen<br>
+            2nd Photo: Wikimedia, by Paul Clarke</small>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+            dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud <span
+                class="highlight">exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+                consequat</span>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
+            consequat, vel <span class="highlight">illum dolore eu feugiat nulla facilisis</span>.</p>
+
+        <ul>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                laoreet dolore magna aliquam erat volutpat.</li>
+            <li>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
+                ex ea commodo consequat.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                laoreet dolore magna aliquam erat volutpat.</li>
+        </ul>
+
+        <table>
+            <tr class="table-header">
+                <td>Lorem ipsum dolor</td>
+                <td>Lorem ipsum dolor</td>
+                <td>Lorem ipsum dolor</td>
+            </tr>
+            <tr>
+                <td>Lorem ipsum dolor</td>
+                <td>Lorem ipsum dolor</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Accusantium eos quo, placeat consectetur
+                    ullam fugiat similique perferendis repellendus illo mollitia eveniet expedita a quia modi. Totam
+                    saepe quibusdam natus harum.</td>
+            </tr>
+            <tr>
+                <td>Lorem ipsum dolor</td>
+                <td>Lorem ipsum dolor</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Accusantium eos quo, placeat consectetur
+                    ullam fugiat similique perferendis repellendus illo mollitia eveniet expedita a quia modi. Totam
+                    saepe quibusdam natus harum.</td>
+            </tr>
+            <tr>
+                <td>Lorem ipsum dolor</td>
+                <td>Lorem ipsum dolor</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Accusantium eos quo, placeat consectetur
+                    ullam fugiat similique perferendis repellendus illo mollitia eveniet expedita a quia modi. Totam
+                    saepe quibusdam natus harum.</td>
+            </tr>
+        </table>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+            dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
+            suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in
+            vulputate velit esse molestie consequat, vel <span class="highlight">illum dolore eu feugiat nulla facilisis
+                at vero eros et accumsan et iusto</span> odio dignissim qui blandit praesent luptatum zzril delenit
+            augue duis dolore te feugait nulla facilisi.</p>
+
+        <div class="related">
+            <p>Potrebbero interessarti</p>
+            <div class="related-item">
+                <p class="related-title">Lorem ipsum dolor</p>
+                <img src="img/monitor.jpg" alt="Related article 1">
+            </div>
+            <div class="related-item">
+                <p class="related-title">Lorem ipsum dolor</p>
+                <img src="img/graph.jpg" alt="Related article 2">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

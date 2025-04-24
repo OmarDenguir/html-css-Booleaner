@@ -1,0 +1,93 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
+        header {
+            background: #66c7ff url('img/pattern.png') repeat top center;
+            padding: 30px 20px 10px 20px;
+            position: relative;
+            text-align: center;
+        }
+        .logo {
+            position: absolute;
+            top: 10px;
+            left: 20px;
+        }
+        .logo img {
+            height: 40px;
+        }
+        header h1 {
+            margin: 10px 0 5px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .author {
+            font-style: italic;
+            font-size: 14px;
+        }
+        .container {
+            padding: 20px;
+        }
+        .images {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+        .images img {
+            width: 30%;
+            height: 350px;
+        }
+        small {
+            display: block;
+            margin-bottom: 20px;
+            font-size: 12px;
+            color: #444;
+        }
+        .highlight {
+            background-color: yellow;
+            font-weight: bold;
+        }
+        ul {
+            margin-top: 10px;
+            padding-left: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            vertical-align: top;
+        }
+        .table-header td {
+            background-color: #b3e5fc;
+            font-weight: bold;
+            color: #0088cc;
+        }
+        .related {
+            margin-top: 30px;
+        }
+        .related-title {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            color: white;
+            font-weight: bold;
+            text-shadow: 1px 1px 2px #000;
+        }
+        .related-item {
+            position: relative;
+            display: inline-block;
+            margin-right: 10px;
+        }
+        .related img {
+            width: 200px;
+            height: auto;
+            display: block;
+        }
+    

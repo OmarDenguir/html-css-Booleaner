@@ -1,1 +1,11 @@
 # html-css-Booleaner
+- Leggo la consegna 
+- Preparare la repo e clonare 
+- Mi guardo il mockup 
+- Meto gli asset forniti nella cartella 
+- controllo di avere tutti i materiali 
+- Creo index.hatml
+- Creo cartella css con relativo foglio stile 
+- collego html e css
+- commit e push
+- analisi mockup
